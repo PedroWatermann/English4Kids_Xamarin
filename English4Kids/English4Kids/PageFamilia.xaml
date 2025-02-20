@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="English4Kids.PageFamilia"
+             Title="Família"
+             BackgroundColor="AntiqueWhite">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_grandfather"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Grandfather"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Avô"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_grandmother"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Grandmother"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Avó"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_father"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Father"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Pai"
+                               TextColor="Black"
+                                VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_mother"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Mother"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Mãe"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_older_brother"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Older brother"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Irmão masi velho"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_older_sister"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Older Sister"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Irmã mais velha"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_son"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Son"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Filho"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_daughter"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Daughter"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Filha"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_younger_brother"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Younger brother"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Irmão mis novo"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_younger_sister"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Younger sister"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Irmã mais nova"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="English4Kids.MainPage"
+             Title="InglÊs Para Crianças"
+             BackgroundColor="White">
+
+    <StackLayout Margin="5">
+        <Image Source="logoapp"
+               Margin="10, 0"/>
+        
+        <Button Text="Cores"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                BackgroundColor="#0000bf"
+                BorderWidth="3"
+                BorderColor="#00006a"
+                CornerRadius="20"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="Title"
+                TextTransform="None"
+                Margin="10,0"
+                x:Name="btnCores"
+                Clicked="btnCores_Clicked"/>
+        
+        <Button Text="Família"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                BackgroundColor="#aa5511"
+                BorderWidth="3"
+                BorderColor="#773311"
+                CornerRadius="20"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="Title"
+                TextTransform="None"
+                Margin="10,0"
+                x:Name="btnFamilia"
+                Clicked="btnFamilia_Clicked"/>
+        
+        <Button Text="Números"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                BackgroundColor="#008f00"
+                BorderWidth="3"
+                BorderColor="#005c00"
+                CornerRadius="20"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="Title"
+                TextTransform="None"
+                Margin="10,0"
+                x:Name="btnNumeros"
+                Clicked="btnNumeros_Clicked"/>
+        
+        <Button Text="Sair"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                BackgroundColor="#cf0000"
+                BorderWidth="3"
+                BorderColor="#890000"
+                CornerRadius="20"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="Title"
+                TextTransform="None"
+                Margin="10,0"
+                x:Name="btnSair"
+                Clicked="btnSair_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="English4Kids.PageNumeros"
+             Title="Números"
+             BackgroundColor="AntiqueWhite">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_one"/>
+                    <StackLayout>
+                        <Label Text="Inglês: One"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Um"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_two"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Two"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Dois"
+                               TextColor="Black"
+                                VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_three"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Three"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Três"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_four"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Four"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Quatro"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_five"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Five"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Cinco"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_six"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Six"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Seis"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_seven"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Seven"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Sete"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_eight"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Eight"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Oito"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_nine"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Nine"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Nove"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="number_ten"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Ten"
+                               TextColor="Black"
+                               VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Dez"
+                               TextColor="Black"
+                               VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
